@@ -1,4 +1,4 @@
-﻿function Alert(msg, deferTime) {
+function Alert(msg, deferTime) {
     msg = '<h2>' + msg + '</h2>';
     deferTime = arguments.length == 2 ? deferTime : 5000;
     var nowTime = new Date().valueOf(), preTime = window.preTime || nowTime - deferTime - 1;
@@ -102,8 +102,8 @@ uploader.on('uploadSuccess', function (file, response) {
                 uls.eq(index).append(jli);
             };
         cli(0, gs);
-        cli(1, "https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path);
-        cli(2, '<img src="' + https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path + '" alt="' + fn + '" title="' + fn + '" />');
+        cli(1, "https://ghraw.chicdn.cn/" + ls.config.or + "/" + path);
+        cli(2, "<img src="' https://ghraw.chicdn.cn/" + ls.config.or + "/" + path '" alt="' + fn + '" title="' + fn + '" />');
         cli(3, "https://cdn.jsdelivr.net/gh/" + ls.config.or + "/" + path);
         cli(4, "https://raw.githubusercontents.com/" + ls.config.or + "/master/" + path);
         cli(5, '<img src="' + gs + '" alt="' + fn + '" title="' + fn + '" />');
