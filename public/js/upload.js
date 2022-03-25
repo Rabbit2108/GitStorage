@@ -102,7 +102,7 @@ uploader.on('uploadSuccess', function (file, response) {
                 uls.eq(index).append(jli);
             };
         cli(0, gs);
-        cli(1, "https://ghraw.chicdn.cn/" + ls.config.or + "/" + path);
+        cli(1, "https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path);
         cli(2, "https://cdn.jsdelivr.net/gh/" + ls.config.or + "/" + path);
         cli(3, "https://raw.githubusercontents.com/" + ls.config.or + "/master/" + path);
         cli(4, '<img src="' + gs + '" alt="' + fn + '" title="' + fn + '" />');
