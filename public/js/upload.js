@@ -103,7 +103,7 @@ uploader.on('uploadSuccess', function (file, response) {
             };
         cli(0, gs);
         cli(1, "https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path);
-        cli(2, '<img src="https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path"+ " alt=" width="100%"/><br/>');
+        cli(2, '<img src="' + https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path + '" alt="' + fn + '" title="' + fn + '" />');
         cli(3, "https://cdn.jsdelivr.net/gh/" + ls.config.or + "/" + path);
         cli(4, "https://raw.githubusercontents.com/" + ls.config.or + "/master/" + path);
         cli(5, '<img src="' + gs + '" alt="' + fn + '" title="' + fn + '" />');
