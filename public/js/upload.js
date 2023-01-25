@@ -105,7 +105,7 @@ uploader.on('uploadSuccess', function (file, response) {
         cli(1, "https://ghraw.chicdn.cn/" + ls.config.or + "/master/" + path);
         cli(2, "https://cdn.jsdelivr.net/gh/" + ls.config.or + "/" + path);
         cli(3, "https://raw.verge.tk/" + ls.config.or + "/master/" + path);
-        cli(4, '<img src="' + gs + '" alt="' + fn + '" title=" width="100%"' + fn + '" />');
+        cli(4, '<img src="' + gs + '" alt="' + fn + '" width="100%" title="' + fn + '" />');
         cli(5, '![' + fn + '](' + gs + ')');
 
         if ($('#tcpane').attr('data-autoselect') != "1") {
